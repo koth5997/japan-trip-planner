@@ -334,7 +334,7 @@ export default function Home() {
             options={{
               disableDefaultUI: false,
               zoomControl: true,
-              cursor: isAddingMode ? "crosshair" : "default",
+              draggableCursor: isAddingMode ? "crosshair" : "default",
               styles: [
                 {
                   featureType: "poi",
